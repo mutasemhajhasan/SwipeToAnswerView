@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/thumb_bg">
+        <shape android:shape="rectangle">
+
+            <solid android:color="@android:color/transparent" />
+
+        </shape>
+
+    </item>
+    <item
+        android:id="@+id/thumb_ic"
+        android:drawable="@drawable/ic_answer"
+        android:gravity="center"
+        android:left="32dp"
+        >
+
+    </item>
+</layer-list>

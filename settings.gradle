@@ -1,0 +1,2 @@
+include ':app', ':slidetoanswer'
+rootProject.name='Sample'

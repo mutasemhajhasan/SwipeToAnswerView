@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SwipeToAnswerView">
+        <attr name="threshold" format="integer"/>
+        <attr name="reverse" format="boolean"/>
+        <attr name="icon" format="reference"/>
+    </declare-styleable>
+</resources>
