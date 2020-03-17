@@ -1,5 +1,7 @@
 ﻿# Swipe to Answer View
-
+<img src="https://raw.githubusercontent.com/mutasemhajhasan/SlideToAnswerView/master/demo.gif"  
+     alt="Markdown Monster icon"  
+     style="float: left; margin-right: 10px;" />
 ## Installation
 
     allprojects {
