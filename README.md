@@ -2,9 +2,15 @@
 
 ## Installation
 
-    dependencies {
-        compile 'com.klinkerapps:sliding-activity:1.5.2'
-    }
+    allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+	dependencies {
+	        implementation 'com.github.mutasemhajhasan:SlideToAnswerView:1.0.0'
+	}
     
 ## Usage
 Activity.xml
