@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:layoutDirection="ltr"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
-
     <ImageView
+        android:autoMirrored="true"
         android:layout_centerVertical="true"
         android:src="@drawable/ic_right_arrow"
         android:id="@+id/arrow"
         android:layout_width="70dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="100dp"
         android:layout_marginStart="100dp" />
     <me.mutasem.slidetoanswer.Slider
         android:layout_centerVertical="true"
@@ -21,19 +20,18 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
         android:layout_margin="15dp"
         android:background="@null"
         android:clickable="false"
         android:max="100"
         android:maxHeight="64dp"
         android:minHeight="64dp"
-        android:paddingLeft="32dp"
-        android:paddingRight="32dp"
+        android:paddingStart="32dp"
+        android:paddingEnd="32dp"
         android:progress="0"
         android:progressDrawable="@android:color/transparent"
         android:splitTrack="false"
         android:thumb="@drawable/sa_thumb"
-        tools:ignore="UnusedAttribute" />
+         />
 
 </RelativeLayout>

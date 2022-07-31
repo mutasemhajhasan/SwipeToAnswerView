@@ -46,8 +46,4 @@ public class Slider extends AppCompatSeekBar {
 
         return true;
     }
-
-
-
-
 }

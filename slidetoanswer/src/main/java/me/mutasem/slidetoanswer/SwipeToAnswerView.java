@@ -5,6 +5,7 @@ import android.content.res.TypedArray;
 import android.graphics.drawable.LayerDrawable;
 import android.os.Build;
 import android.util.AttributeSet;
+import android.view.LayoutInflater;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
@@ -22,12 +23,12 @@ public class SwipeToAnswerView extends RelativeLayout {
         @Override
         public void onProgressChanged(SeekBar seekBar, int i, boolean b) {
             setBackground(ContextCompat.getDrawable(getContext(), R.drawable.sa_view_bg));
-            try {
-                arrow.clearAnimation();
-                arrow.setVisibility(GONE);
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
+//            try {
+//                arrow.clearAnimation();
+//                arrow.setVisibility(GONE);
+//            } catch (Exception e) {
+//                e.printStackTrace();
+//            }
 
         }
 
@@ -83,12 +84,12 @@ public class SwipeToAnswerView extends RelativeLayout {
             int icon = a.getResourceId(R.styleable.SwipeToAnswerView_icon, R.drawable.ic_answer);
 //            slider.setThumbOffset(64);
             LayerDrawable drawable = (LayerDrawable) slider.getThumb();
-
             drawable.setDrawableByLayerId(R.id.thumb_ic, ContextCompat.getDrawable(context, icon));
             if (slider.reverse) {
                 setRotationY(180);
-
             }
+           bringToFront();
+
         } catch (Exception e) {
             e.printStackTrace();
         } finally {

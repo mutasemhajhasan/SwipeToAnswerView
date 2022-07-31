@@ -4,6 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Projects/OpenSource/Released/SlideToAnswerView/Sample/app/src/main/res/layout/activity_main.xml" value="0.1793478260869565" />
+        <entry key="..\:/Projects/OpenSource/Released/SlideToAnswerView/Sample/slidetoanswer/src/main/res/drawable/sa_thumb.xml" value="0.1" />
+        <entry key="..\:/Projects/OpenSource/Released/SlideToAnswerView/Sample/slidetoanswer/src/main/res/drawable/sa_view_bg.xml" value="0.1" />
+        <entry key="..\:/Projects/OpenSource/Released/SlideToAnswerView/Sample/slidetoanswer/src/main/res/layout/swipe_to_answer_view.xml" value="0.1793478260869565" />
       </map>
     </option>
   </component>

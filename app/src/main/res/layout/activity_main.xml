@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     android:background="@color/colorPrimaryDark"
     android:orientation="vertical"
-    android:padding="10dp"
     tools:context=".MainActivity">
 
     <TextView
@@ -53,18 +52,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
         android:layout_alignParentBottom="true"
-        android:text="Hello World!" />
+   />
 
     <me.mutasem.slidetoanswer.SwipeToAnswerView
         android:id="@+id/StA2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:text="Hello World!"
         app:icon="@drawable/ic_decline"
         app:reverse="true" />
 
