@@ -24,7 +24,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onSlideCompleted() {
                 Toast.makeText(MainActivity.this, "Slide completed", Toast.LENGTH_SHORT).show();
-                decline.stopAnimation();
             }
         });
         decline = findViewById(R.id.StA2);
@@ -32,7 +31,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onSlideCompleted() {
                 Toast.makeText(MainActivity.this, "Reverse completed", Toast.LENGTH_SHORT).show();
-                answer.stopAnimation();
             }
         });
     }
