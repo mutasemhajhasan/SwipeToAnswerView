@@ -3,7 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Projects/OpenSource/Released/SlideToAnswerView/Sample/app/src/main/res/drawable/ic_launcher_background.xml" value="0.14444444444444443" />
+        <entry key="..\:/Projects/OpenSource/Released/SlideToAnswerView/Sample/app/src/main/res/drawable/ic_person.xml" value="0.14444444444444443" />
         <entry key="..\:/Projects/OpenSource/Released/SlideToAnswerView/Sample/app/src/main/res/layout/activity_main.xml" value="0.1793478260869565" />
+        <entry key="..\:/Projects/OpenSource/Released/SlideToAnswerView/Sample/slidetoanswer/src/main/res/drawable/ic_answer.xml" value="0.14444444444444443" />
+        <entry key="..\:/Projects/OpenSource/Released/SlideToAnswerView/Sample/slidetoanswer/src/main/res/drawable/ic_decline.xml" value="0.14444444444444443" />
+        <entry key="..\:/Projects/OpenSource/Released/SlideToAnswerView/Sample/slidetoanswer/src/main/res/drawable/ic_right_arrow.xml" value="0.14444444444444443" />
         <entry key="..\:/Projects/OpenSource/Released/SlideToAnswerView/Sample/slidetoanswer/src/main/res/drawable/sa_thumb.xml" value="0.1" />
         <entry key="..\:/Projects/OpenSource/Released/SlideToAnswerView/Sample/slidetoanswer/src/main/res/drawable/sa_view_bg.xml" value="0.1" />
         <entry key="..\:/Projects/OpenSource/Released/SlideToAnswerView/Sample/slidetoanswer/src/main/res/layout/swipe_to_answer_view.xml" value="0.1793478260869565" />
